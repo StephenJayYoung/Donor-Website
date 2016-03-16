@@ -214,6 +214,7 @@ background-color: #e38d77 !important;
 #about{
 	padding-top: 60px;
 	padding-bottom: 40px;
+	background-color: #f7f7f7;
 }
 
 /*Benefits Overrides*/
@@ -226,7 +227,7 @@ background-color: #e38d77 !important;
 /*Overview Overrides*/
 #overview{
 	padding-top: 60px;
-	background-color: #fff;
+	background-color: #f7f7f7;
 }
 
 .entry.entry-date-section span {
@@ -254,7 +255,7 @@ background-color: #e38d77 !important;
 
 #gift-act{
 	padding-top: 60px;
-	background-color: #ededed
+	background-color: #ACC1D1;
 }
 
 #donor{
