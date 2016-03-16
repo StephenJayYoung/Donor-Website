@@ -10,7 +10,7 @@
 /** MENU OVERRIDES */
 
 body{
-	color: #1f1b18 !important;
+	color: #000 !important;
 	background-color: #fff !important;
 	font-family: 'Gentium Book Basic', serif !important;
 }
@@ -217,11 +217,19 @@ background-color: #e38d77 !important;
 	background-color: #f7f7f7;
 }
 
+.feature-box p {
+    color: #000;
+}
+
 /*Benefits Overrides*/
 #benefits{
 	padding-top: 60px;
-	background-color: #C3D1DD;
+	background-color: #fff;
 	padding-bottom: 40px;
+}
+
+.portfolio-desc span {
+    color: #000;
 }
 
 /*Overview Overrides*/
@@ -237,31 +245,37 @@ background-color: #e38d77 !important;
 .entry.entry-date-section span {
     font-size: 30px;
     color: #04248F;
+    background-color: #f7f7f7
 }
 
 
 /*PATIENT FORMS*/
 #forms{padding-top: 60px;padding-bottom: 40px;
-    background-color: #ACC1D1;}
-#forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#ddd;border-radius: 10px;}
+    background-color: #fff;}
+#forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#86A6C1;border-radius: 10px;}
 #forms h3{font-size:18px;}
 #forms .button{position:absolute;display:block;bottom:16px;right:16px;left:16px;}
 
 #FAQS{
 	padding-top: 60px;
 	padding-bottom: 40px;
+	background-color: #f7f7f7;
 
 }
 
 #gift-act{
 	padding-top: 60px;
-	background-color: #ACC1D1;
+	background-color: #fff;
 }
 
 #donor{
 	padding-top: 60px;
 	padding-bottom: 40px;
-	background-color:#738EA9;
+	background-color:#f7f7f7;
+}
+
+.heading-block > span:not(.before-heading) {
+    color: #000;
 }
 
 
@@ -973,11 +987,11 @@ address {
 
 .ts-text{
 	font-size: 15px !important;
-	color: #a09b92 !important;
+	color: #000 !important;
 }
 
 #copyrights {
-  background-color: #4f4a41 !important;
+  background-color: #738EA9 !important;
   color: #a09b92 !important;
 }
 
