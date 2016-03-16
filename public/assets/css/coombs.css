@@ -183,7 +183,7 @@ background-color: #e38d77 !important;
 
 /** ACTIONS OVERRIDES */
 
-#actions{padding:20px 0;background-color:#50848f;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions{padding:20px 0;background-color:#738EA9;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xxs #actions{padding:10px 0;}
 #actions h3{color:#f2f2f2 !important;font-size:16px;margin-bottom:0;}
 #actions h3 a{display:block;color:#f1f3f9;font-size:2.5em;line-height:1;font-family: "Open Sans";text-shadow:1px 1px 1px rgba(0,0,0,.4);}
@@ -213,16 +213,20 @@ background-color: #e38d77 !important;
 /*About Overrides*/
 #about{
 	padding-top: 60px;
+	padding-bottom: 40px;
 }
 
 /*Benefits Overrides*/
 #benefits{
 	padding-top: 60px;
+	background-color: #C3D1DD;
+	padding-bottom: 40px;
 }
 
 /*Overview Overrides*/
 #overview{
 	padding-top: 60px;
+	background-color: #fff;
 }
 
 .entry.entry-date-section span {
@@ -236,22 +240,27 @@ background-color: #e38d77 !important;
 
 
 /*PATIENT FORMS*/
-#forms{padding-top: 60px;}
+#forms{padding-top: 60px;padding-bottom: 40px;
+    background-color: #ACC1D1;}
 #forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#ddd;border-radius: 10px;}
 #forms h3{font-size:18px;}
 #forms .button{position:absolute;display:block;bottom:16px;right:16px;left:16px;}
 
 #FAQS{
 	padding-top: 60px;
+	padding-bottom: 40px;
+
 }
 
 #gift-act{
 	padding-top: 60px;
+	background-color: #ededed
 }
 
 #donor{
 	padding-top: 60px;
 	padding-bottom: 40px;
+	background-color:#738EA9;
 }
 
 
