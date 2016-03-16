@@ -238,6 +238,27 @@ background-color: #e38d77 !important;
 	background-color: #f7f7f7;
 }
 
+.timeline-border {
+    border-left: 1px dashed #04248F !important;
+}
+
+.post-timeline .entry-timeline div.timeline-divider {
+    border-top: 1px dashed #04248F !important;
+}
+
+.post-timeline .entry-timeline {
+    color: #04248F !important;
+}
+
+.post-timeline .entry-timeline {
+    color: #04248F !important;
+}
+.post-timeline .entry-timeline {
+    border: 2px solid #04248F !important;
+    background-color: #FFF;
+    color: #04248F !important;
+}
+
 .entry.entry-date-section span {
     border-radius: 10px;
 }
@@ -247,6 +268,8 @@ background-color: #e38d77 !important;
     color: #04248F;
     background-color: #f7f7f7
 }
+
+
 
 
 /*PATIENT FORMS*/
@@ -724,7 +747,7 @@ box-sizing: border-box;
 	padding: .6em;
   border: 1px solid #ddd;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #ddd;
 }
 
 .portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
@@ -1058,7 +1081,7 @@ input, select, textarea {
 }
 
 .icon-question-sign:before {
-    color: #e36314;
+    color: #4ABFF2;
 }
 
 .fa-pencil:before {
