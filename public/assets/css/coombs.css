@@ -199,7 +199,7 @@ background-color: #e38d77 !important;
 .device-xs #actions .schedule-online:not(.close),
 .device-xxs #actions .phone-numbers,
 .device-xxs #actions .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
-#actions .schedule-online a.button{background-color:#e36314;color:#ffffff;opacity:1;border:2px solid rgba(255, 255, 255, .7);text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#e36314;border-radius: 10px;color:#ffffff;opacity:1;border:2px solid rgba(255, 255, 255, .7);text-shadow:none !important;text-decoration:none !important;}
 .device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {font-size:12px;padding:5px 10px !important;line-height:25px;}
 #actions .existing-patients{margin-top:10px;}
 #actions .existing-patients p{font-size:24px;font-weight:300;margin:0;}
@@ -233,7 +233,7 @@ background-color: #e38d77 !important;
 
 /*PATIENT FORMS*/
 #forms{padding-top: 60px;}
-#forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#ddd;}
+#forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#ddd;border-radius: 10px;}
 #forms h3{font-size:18px;}
 #forms .button{position:absolute;display:block;bottom:16px;right:16px;left:16px;}
 
@@ -1005,6 +1005,7 @@ input, select, textarea {
 
 .button{
 	background-color: #e36314 !important;
+	border-radius: 10px;
 }
 
 .portfolio-overlay a.center-icon {
@@ -1018,3 +1019,18 @@ input, select, textarea {
 #gotoTop:hover {
     background-color: #e36314 !important;
 }
+
+/*Font awesome Icons*/
+/*.fbox-icon-2{
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    background-color: #1ABC9C;
+		display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}*/
