@@ -226,6 +226,10 @@ background-color: #e38d77 !important;
 }
 
 .entry.entry-date-section span {
+    border-radius: 10px;
+}
+
+.entry.entry-date-section span {
     font-size: 30px;
     color: #50848f;
 }
@@ -1006,6 +1010,9 @@ input, select, textarea {
 .button{
 	background-color: #e36314 !important;
 	border-radius: 10px;
+	color: #ffffff;
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, .7);
 }
 
 .portfolio-overlay a.center-icon {
