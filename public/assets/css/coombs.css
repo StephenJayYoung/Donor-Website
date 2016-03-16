@@ -20,7 +20,7 @@ a {
 }
 
 h2 {
-    color: #50848f;
+    color: #04248F;
     font-family: "Open Sans";
     font-weight: 900 !important;
 }
@@ -231,7 +231,7 @@ background-color: #e38d77 !important;
 
 .entry.entry-date-section span {
     font-size: 30px;
-    color: #50848f;
+    color: #04248F;
 }
 
 
@@ -1025,6 +1025,35 @@ input, select, textarea {
 
 #gotoTop:hover {
     background-color: #e36314 !important;
+}
+
+/*Icons*/
+.feature-box .fbox-icon i, .feature-box .fbox-icon img {
+    background-color: #4ABFF2 !important;
+}
+
+.icon-question-sign:before {
+    color: #e36314;
+}
+
+.fa-pencil:before {
+    color: #04248F;
+}
+
+.fa-legal:before, .fa-gavel:before {
+    color: #04248F;
+}
+
+.fa-check:before {
+    color: #04248F;
+}
+
+.fa-phone:before {
+    color: #04248F;
+}
+
+.fa-group:before, .fa-users:before {
+    color: #04248F;
 }
 
 /*Font awesome Icons*/
