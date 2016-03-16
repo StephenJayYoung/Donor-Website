@@ -225,6 +225,12 @@ background-color: #e38d77 !important;
 	padding-top: 60px;
 }
 
+.entry.entry-date-section span {
+    font-size: 30px;
+    color: #50848f;
+}
+
+
 /*PATIENT FORMS*/
 #forms{padding-top: 60px;}
 #forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#ddd;}
