@@ -229,7 +229,8 @@ background-color: #e38d77 !important;
 }
 
 .portfolio-desc span {
-    color: #000;
+  color: #000;
+  font-size: 16px;
 }
 
 /*Overview Overrides*/
@@ -612,11 +613,12 @@ section#services {
 }
 
 .portfolio-desc h3 {
-    font-size: 18px;
-    margin: 8px 0 0 0;
-		padding: 2px;
-		text-align: center;
-		color: #04248F;
+	font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 0 0;
+  padding: 2px;
+  text-align: center;
+  color: #04248F;
 }
 
 .portfolio-desc h3 a:hover {
@@ -761,9 +763,9 @@ section#tour {
 .portfolio-item {
 box-sizing: border-box;
 	padding: .6em;
-  border: 1px solid #ddd;
+  border: 1px solid #04248F;
   border-radius: 10px;
-  background-color: #ddd;
+  background-color: #f7f7f7;
 }
 
 .portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
