@@ -269,7 +269,16 @@ background-color: #e38d77 !important;
     background-color: #f7f7f7
 }
 
+.entry.entry-date-section span {
+    background-color: #FFF;
+    border: 1.5px solid #04248F;
+    font-family: "Open Sans";
+    font-weight: 900 !important;
+}
 
+#content p {
+    font-size: 16px;
+}
 
 
 /*PATIENT FORMS*/
@@ -283,7 +292,14 @@ background-color: #e38d77 !important;
 	padding-top: 60px;
 	padding-bottom: 40px;
 	background-color: #f7f7f7;
+}
 
+.faqs .toggle .togglet, .faqs .toggle .toggleta {
+    font-size: 17px;
+}
+
+.faqs .toggle .togglec {
+    font-size: 16px;
 }
 
 #gift-act{
