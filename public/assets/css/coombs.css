@@ -239,6 +239,12 @@ background-color: #e38d77 !important;
 	background-color: #f7f7f7;
 }
 
+@media (max-width: 767px) {
+	.post-grid .entry, .post-masonry-full.grid-3 .entry {
+	     border-right: 1px solid #000 !important; 
+	}
+}
+
 .timeline-border {
     border-left: 1px dashed #04248F !important;
 }
@@ -285,7 +291,7 @@ background-color: #e38d77 !important;
 /*PATIENT FORMS*/
 #forms{padding-top: 60px;padding-bottom: 40px;
     background-color: #fff;}
-#forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;position:relative;background-color:#86A6C1;border-radius: 10px;}
+#forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;margin-bottom: 10px;position:relative;background-color:#86A6C1;border-radius: 10px;}
 #forms h3{font-size:18px;}
 #forms .button{position:absolute;display:block;bottom:16px;right:16px;left:16px;}
 
