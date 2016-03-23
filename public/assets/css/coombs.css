@@ -476,7 +476,7 @@ background-color: #e38d77 !important;
 #forms .button{position:absolute;display:block;bottom:16px;right:16px;left:16px;}
 
 
-@media (min-width: 480px) and (max-width: 768px){
+@media (min-width: 778px) and (max-width: 990px){
 	.authorization-padding{
 		padding-bottom: 28px;
 	}
