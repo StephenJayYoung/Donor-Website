@@ -228,16 +228,39 @@ background-color: #e38d77 !important;
 	padding-bottom: 40px;
 }
 
+.portfolio-item-2{
+	box-sizing: border-box;
+    padding: .6em;
+    border: 1px solid #04248F;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+	.portfolio-desc h3 {
+		font-size: 16px !important;
+	}
+}
+
+.portfolio-desc h3 {
+	font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 0 0;
+  padding: 2px;
+  text-align: center;
+  color: #04248F;
+}
+
 .cover-costs-desc{
 	padding-bottom: 17px
 }
 
 .donor-pickup-desc{
-	padding-bottom: 52px !important;
+	padding-bottom: 50px !important;
 }
 
 .legacy-desc{
-	padding-bottom: 57px
+	padding-bottom: 50px
 }
 
 .portfolio-desc span {
@@ -247,15 +270,30 @@ background-color: #e38d77 !important;
 
 @media (min-width: 991px) and (max-width: 1199px){
 	.cover-costs-desc{
-	padding-bottom: 48px
+	padding-bottom: 18px
 }
 
 .donor-pickup-desc{
-	padding-bottom: 82px !important;
+	padding-bottom: 52px !important;
 }
 
 .legacy-desc{
-	padding-bottom: 87px
+	padding-bottom: 52px
+}
+
+}
+
+@media(min-width: 480px) and (max-width: 767px){
+	.cover-costs{
+		padding-bottom: 25px !important;
+	}
+
+	#portfolio:not(.portfolio-1) .portfolio-desc h3 {
+    font-size: 14px;
+	}
+
+	.donor-pickup-desc{
+	padding-bottom: 0px !important;
 }
 
 }
@@ -361,11 +399,7 @@ background-color: #e38d77 !important;
 
 }
 
-@media (max-width: 767px) {
-	.post-grid .entry, .post-masonry-full.grid-3 .entry {
-	     border-right: 1px solid #000 !important; 
-	}
-}
+
 
 .timeline-border {
     border-left: 1px dashed #04248F !important;
@@ -440,6 +474,14 @@ background-color: #e38d77 !important;
 	padding-top: 60px;
 	padding-bottom: 40px;
 	background-color:#f7f7f7;
+}
+
+.donor-image{
+	  box-sizing: border-box;
+    padding: .6em;
+    border: 1px solid #04248F;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
 .heading-block > span:not(.before-heading) {
@@ -740,14 +782,9 @@ section#services {
 	    font-family: 'Gentium Book Basic', sans-serif !important;
 }
 
-.portfolio-desc h3 {
-	font-size: 20px;
-  font-weight: 600;
-  margin: 8px 0 0 0;
-  padding: 2px;
-  text-align: center;
-  color: #04248F;
-}
+
+
+
 
 .portfolio-desc h3 a:hover {
     color: #000 !important;
@@ -1168,7 +1205,7 @@ address {
 }
 
 #copyrights {
-  background-color: #738EA9 !important;
+  background-color: #1676B2 !important;
   color: #a09b92 !important;
 }
 
