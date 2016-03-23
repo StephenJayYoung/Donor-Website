@@ -228,15 +228,137 @@ background-color: #e38d77 !important;
 	padding-bottom: 40px;
 }
 
+.cover-costs-desc{
+	padding-bottom: 17px
+}
+
+.donor-pickup-desc{
+	padding-bottom: 52px !important;
+}
+
+.legacy-desc{
+	padding-bottom: 57px
+}
+
 .portfolio-desc span {
   color: #000;
   font-size: 16px;
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+	.cover-costs-desc{
+	padding-bottom: 48px
+}
+
+.donor-pickup-desc{
+	padding-bottom: 82px !important;
+}
+
+.legacy-desc{
+	padding-bottom: 87px
+}
+
 }
 
 /*Overview Overrides*/
 #overview{
 	padding-top: 60px;
 	background-color: #f7f7f7;
+}
+
+.contact-box{
+	border: 1px solid #000;
+	border-radius: 10px; 
+	background-color: #fff;
+}
+
+.contact-box-header{
+	display: block; 
+	background-color: #4ABFF2; 
+	border-radius: 10px 10px 0 0; 
+	padding: 5px
+}
+
+.contact-box-content{
+	padding: 10px;
+}
+
+.counsel-box{
+	border: 1px solid #000;
+	margin-top: 105px;
+	border-radius: 10px;
+	background-color: #fff
+}
+
+.counsel-box-header{
+	display: block; 
+	background-color: #4ABFF2; 
+	border-radius: 10px 10px 0 0; 
+	padding: 5px
+}
+
+.counsel-box-content{
+	padding: 10px;
+}
+
+.form-completion-box{
+	border: 1px solid #000; 
+	border-radius: 10px; 
+	background-color: #fff
+}
+
+.form-completion-box-header{
+	display: block; 
+	background-color: #4ABFF2; 
+	border-radius: 10px 10px 0 0; 
+	padding: 5px
+}
+
+.form-completion-box-content{
+	padding: 15px
+}
+
+.accept-decline-box{
+	border: 1px solid #000; 
+	margin-top: 145px; 
+	border-radius: 10px; 
+	background-color: #fff
+}
+
+.accept-decline-box-header{
+	display: block; 
+	background-color: #4ABFF2; 
+	border-radius: 10px 10px 0 0; 
+	padding: 5px
+}
+
+.accept-decline-box-content{
+	padding: 10px;
+}
+
+.if-accepted-box{
+	border: 1px solid #000; 
+	margin-top: 50px; 
+	border-radius: 10px; 
+	background-color: #fff
+}
+
+.if-accepted-header{
+	display: block; 
+	background-color: #4ABFF2; 
+	border-radius: 10px 10px 0 0; 
+	padding: 5px
+}
+
+.if-accepted-content{
+	padding: 10px
+}
+
+@media (max-width: 991px) {
+.post-grid.grid-2 .entry, .post-grid.grid-3 .entry {
+    margin-top: -30px;
+}
+
 }
 
 @media (max-width: 767px) {
