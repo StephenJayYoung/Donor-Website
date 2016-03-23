@@ -358,7 +358,7 @@ background-color: #e38d77 !important;
 
 .accept-decline-box{
 	border: 1px solid #000; 
-	margin-top: 145px; 
+	margin-top: 165px; 
 	border-radius: 10px; 
 	background-color: #fff
 }
@@ -399,6 +399,34 @@ background-color: #e38d77 !important;
 
 }
 
+
+
+/*for media widths*/
+
+@media(min-width: 768px) and (max-width: 990px){
+
+.counsel-box{
+	border: 1px solid #000;
+	margin-top: 105px !important;
+	border-radius: 10px;
+	background-color: #fff
+}
+
+.accept-decline-box{
+	border: 1px solid #000; 
+	margin-top: 165px !important; 
+	border-radius: 10px; 
+	background-color: #fff
+}
+
+.if-accepted-box{
+	border: 1px solid #000; 
+	margin-top: 50px !important; 
+	border-radius: 10px; 
+	background-color: #fff
+}
+
+}
 
 
 .timeline-border {
@@ -450,6 +478,13 @@ background-color: #e38d77 !important;
 #forms .patient-link-box{padding:1.5em 1.5em 3.5em 1.5em;margin-bottom: 10px;position:relative;background-color:#86A6C1;border-radius: 10px;}
 #forms h3{font-size:18px;}
 #forms .button{position:absolute;display:block;bottom:16px;right:16px;left:16px;}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+	.authorization-padding{
+		padding-bottom: 28px;
+	}
+}
 
 #FAQS{
 	padding-top: 60px;
