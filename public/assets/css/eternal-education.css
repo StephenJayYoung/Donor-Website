@@ -238,12 +238,12 @@ background-color: #e38d77 !important;
 
 @media (min-width: 991px) and (max-width: 1199px){
 	.portfolio-desc h3 {
-		font-size: 16px !important;
+		font-size: 15px !important;
 	}
 }
 
 .portfolio-desc h3 {
-	font-size: 20px;
+	font-size: 18px;
   font-weight: 600;
   margin: 8px 0 0 0;
   padding: 2px;
@@ -252,7 +252,7 @@ background-color: #e38d77 !important;
 }
 
 .cover-costs-desc{
-	padding-bottom: 17px
+	padding-bottom: 17px !important;
 }
 
 .donor-pickup-desc{
@@ -260,7 +260,7 @@ background-color: #e38d77 !important;
 }
 
 .legacy-desc{
-	padding-bottom: 50px
+	padding-bottom: 50px !important;
 }
 
 .portfolio-desc span {
@@ -270,7 +270,7 @@ background-color: #e38d77 !important;
 
 @media (min-width: 991px) and (max-width: 1199px){
 	.cover-costs-desc{
-	padding-bottom: 18px
+	padding-bottom: 18px !important;
 }
 
 .donor-pickup-desc{
@@ -278,7 +278,7 @@ background-color: #e38d77 !important;
 }
 
 .legacy-desc{
-	padding-bottom: 52px
+	padding-bottom: 52px !important;
 }
 
 }
@@ -478,7 +478,7 @@ background-color: #e38d77 !important;
 
 @media (min-width: 778px) and (max-width: 990px){
 	.authorization-padding{
-		padding-bottom: 28px;
+		padding-bottom: 28px !important;
 	}
 }
 
